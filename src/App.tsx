@@ -155,7 +155,7 @@ export default function App() {
         <div className="relative flex justify-center text-sm"><span className="px-2 bg-gray-800 text-gray-500">Or continue with</span></div>
       </div>
       <div className="flex flex-col sm:flex-row gap-4">
-        <button onClick={handleGoogleLogin} className="flex items-center justify-center w-full px-4 py-3 font-semibold text-white bg-red-600 rounded-lg hover:bg-red-700 transition-colors duration-300 shadow-lg cursor-not-allowed" disabled><GoogleIcon />Google</button>
+        <button onClick={handleGoogleLogin} className="flex items-center justify-center w-full px-4 py-3 font-semibold text-white bg-red-600 rounded-lg hover:bg-red-700 transition-colors duration-300 shadow-lg cursor-pointer"><GoogleIcon />Google</button>
         <button onClick={handleGithubLogin} className="flex items-center justify-center w-full px-4 py-3 font-semibold text-white bg-gray-700 rounded-lg hover:bg-gray-600 transition-colors duration-300 shadow-lg cursor-pointer"><GithubIcon />GitHub</button>
       </div>
     </div>
